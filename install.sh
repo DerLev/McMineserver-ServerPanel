@@ -1,7 +1,7 @@
 #!/bin/bash
 echo -e "Updating apt..."
 apt update >/dev/null 2>&1
-echo -e "Installing cURL.."
+echo -e "Installing cURL..."
 apt install -y curl >/dev/null 2>&1
 echo -e "\nMounting to server directory"
 mkdir -p /mnt/server >/dev/null 2>&1
