@@ -1,4 +1,4 @@
-=== CONGRANTS ===
+=== CONGRATS ===
 
 You found this file and your DIY server is "installed"
 
