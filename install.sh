@@ -6,6 +6,8 @@ apt install -y curl >/dev/null 2>&1
 echo -e "\nMounting to server directory"
 mkdir -p /mnt/server >/dev/null 2>&1
 cd /mnt/server >/dev/null 2>&1
+echo -e "Removing old files"
+rm -rf *
 echo -e "Pulling README.txt"
 curl -o README.txt https://raw.githubusercontent.com/DerLev/McMineserver-ServerPanel/bd2587ccda4d6c20cde8eb1fec5eaa515b90e3a8/README.txt >/dev/null 2>&1
 echo -e "Pulling .pteroignore"
