@@ -1,6 +1,8 @@
 #!/bin/bash
+echo "updating installer..."
 apt update >/dev/null 2>&1
 apt install -y curl jq >/dev/null 2>&1
+echo "installer updated. beginning installation."
 
 #Go into main direction
 if [ ! -d /mnt/server ]; then
