@@ -16,7 +16,7 @@ if [ -f "$IGNORE" ]; then
     echo "$IGNORE exists"
 else 
     echo "$IGNORE does not exist. Creating one..."
-    curl -o .pteroignore https://raw.githubusercontent.com/DerLev/McMineserver-ServerPanel/bd2587ccda4d6c20cde8eb1fec5eaa515b90e3a8/.pteroignore >/dev/null 2>&1
+    curl -o .pteroignore https://raw.githubusercontent.com/McMineserver/pterodactyl-scripts/main/.pteroignore >/dev/null 2>&1
 fi
 
 if [ "${SERVER_TYPE}" == "forge" ] ; then
